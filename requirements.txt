@@ -2,7 +2,7 @@ numpy==1.23.1
 --pre torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/nightly/cpu
 
 albumentations==0.4.6
-diffusers
+diffusers==0.12.1
 opencv-python==4.6.0.66
 pudb==2019.2
 invisible-watermark
