@@ -1,3 +1,17 @@
+# Using the Runner
+
+Need to manually download weights with a Hugging Face account - [Weights on Hugging Face](https://huggingface.co/CompVis/stable-diffusion-v-1-4-original).
+
+```shell-session
+$ mv ~/Downloads/sd-v1-4.ckpt stable-diffusion/models/ldm/stable-diffusion-v1/model.ckpt
+```
+
+[Run Stable Diffusion on your M1 Mac’s GPU](https://replicate.com/blog/run-stable-diffusion-on-m1-mac).
+
+```shell-session
+$ bash run.sh "Your prompt here"
+```
+
 # Apple Silicon Mac Users
 
 NOTE: I have submitted a merge request to move the changes in this repo to the [lstein fork of stable-diffusion](https://github.com/lstein/stable-diffusion/) because he has so many wonderful features in his fork! Another fork that I know that has up-to-date Mac Support and some really cool features is the [Birch-san stable-diffusion fork](https://github.com/Birch-san/stable-diffusion). If my pull request to lstein is accepted, I no longer plan on updating this fork with the latest changes!
